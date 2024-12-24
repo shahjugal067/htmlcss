@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .box{
+        max-width: 500px;
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: 200px 200px 90px;
+        grid-template-rows: 100px
+        height: 300px;
+       } 
+       
+       .c-box1{
+        border: 1px solid red;
+        background: red;
+
+        
+       }
+       .c-box2{
+        border: 1px solid green;
+        background: green;
+        
+       }
+       .c-box3{
+        border: 1px solid yellow;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background:yellow;
+       }
+       .c-box4{
+        border: 1px solid blue;
+        background: blue;
+        
+       }
+       .c-box5{
+        border: 1px solid gray;
+        background: gray;
+        
+       }
+    </style>
+</head>
+<body>
+    
+<div class="box">
+    
+    <div class="c-box1">
+        <p>item2</p>
+    </div>
+    <div class="c-box2">
+        <p>item3</p>
+    </div>
+    <div class="c-box3">
+        <p>item4</p>
+    </div>
+    <div class="c-box4">
+        <p>item5</p>
+    </div>
+    <div class="c-box5">
+        <p>item6</p>
+    </div>
+</div>
+
+</body>
+</html>
